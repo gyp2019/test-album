@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "https://api.ktube.xyz",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
