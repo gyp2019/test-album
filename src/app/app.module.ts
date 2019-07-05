@@ -8,6 +8,7 @@ import { SearchComponent } from './search/search.component';
 import { SpotifySearchService } from './spotify-search.service';
 import { HotlistComponent } from './hotlist/hotlist.component';
 import { ViewCountPipe } from './view-count.pipe';
+import { TopbarComponent } from './topbar/topbar.component';
 
 const routes: Routes = [
   { path: 'search', component: SearchComponent },
@@ -20,6 +21,7 @@ const routes: Routes = [
     SearchComponent,
     HotlistComponent,
     ViewCountPipe,
+    TopbarComponent,
   ],
   imports: [
     BrowserModule,
