@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row no-gutters">
+    <div *ngFor="let video of videos" class="col-12 col-lg-6 p-0 p-lg-1">
+      <div class="card bg-dark text-white">
+        <img [src]="video.thumbnailMaxres" class="card-img" alt="...">
+        <div class="card-img-overlay d-flex align-items-end">
+          <div class="w-90">
+            <h3 class="card-title font-weight-bold mb-1">{{ video.title }}</h3>
+            <p class="mb-0">조회수 • {{ video.viewCount | viewCount }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
